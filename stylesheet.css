@@ -1,3 +1,81 @@
+body {
+  background-image: url("./images/background3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Advent Pro', sans-serif;
+  color: #adadad;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a:link, a:visited {
+  color: #adadad;
+}
+header {
+  width: auto;
+  height: 1000px;
+
+}
+
+
+header nav {
+  vertical-align: middle;
+}
+
+header nav ul {
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+header nav ul li {
+  display: inline;
+
+
+}
+
+header nav ul li a {
+  text-decoration: none;
+  display: inline;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0px 20px 0px 20px;
+  padding-top: 50px;
+
+
+}
+
+header nav ul li a:hover {
+  text-decoration: none;
+  display: inline;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0px 20px 0px 20px;
+  padding-top: 50px;
+  color: white;
+}
+
+header h1{
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 200px;
+  margin-bottom: -10px;
+  font-size: 70px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 10px;
+
+}
+
+header p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 2px;
+  padding-bottom: 200px;
+}
+
 table, tr, td {
   border: 2px dotted red;
 }
