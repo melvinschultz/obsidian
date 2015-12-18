@@ -4,6 +4,8 @@ body {
   background-attachment: fixed;
   font-family: 'Advent Pro', sans-serif;
   color: #adadad;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 a:link, a:visited {
