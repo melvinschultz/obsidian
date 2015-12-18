@@ -2,7 +2,7 @@ body {
   background-image: url("./images/background3.jpg");
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Advent Pro', sans-serif;
+  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #adadad;
   width: 1200px;
   margin: 0 auto;
@@ -84,11 +84,11 @@ footer ul li a:visited, footer ul li a:link{
 
 #tableau_footer td{
   width: 33%;
-
 }
 #tableau_footer h3 {
   color: white;
   text-align: left;
+  padding-bottom: 20px;
 }
 
 .article_footer time{
