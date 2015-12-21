@@ -149,5 +149,25 @@ footer ul li {
   font-family: sans-serif;
   font-size: 12px;
   font-weight: bold;
+}
+
+/* PHOTO */
+
+#gallery {
+
+
+}
+
+#img9 {
+  display: inline-block;
+}
+
+#img4, #img5 {
+  float: right;
+  display: block;
+}
+
+#img5 {
+>>>>>>> bfd7fcb394c45e641f6415cb2ce5fb4e2a56cd43
 
 }
