@@ -2,26 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <!--lien vers les polices-->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Advent+Pro:700' rel='stylesheet' type='text/css'>
+  <!--lien pour les icones-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <title>Photo</title>
 </head>
 <body>
   <header>
 <!-- menu des pages -->
-    <div class="div_menu">
+    <nav class="div_menu">
       <ul class="menu">
-        <li>HOME</li>
-        <li>BIO</li>
-        <li>PHOTOS</li>
-        <li>MUSIC</li>
-        <li>VIDEOS</li>
-        <li>NEWS</li>
-        <li>TOUR</li>
-        <li>CONTACT</li>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="bio.html">BIO</a></li>
+        <li><a href="photo.html">PHOTOS</a></li>
+        <li><a href="music.html">MUSIC</a></li>
+        <li><a href="videos.html">VIDEOS</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="tour.html">TOUR</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
       </ul>
-    </div>
+    </nav>
 <!-- titre et sous-titre -->
     <h1 class="titre_menu">PROJET AUDIO</h1>
-    <p class="sous_titre">SUBTITLE</p>
+    <p class="sous_titre">SUBTITLE...</p>
     <hr>
   </header>
 
@@ -51,24 +58,28 @@
 
     </table>
 
-  <footer>
+    <footer>
 
       <hr>
   <!-- article footer -->
       <table id="tableau_footer">
         <tr>
 
-          <td>
+          <td valign="top" align="left">
             <h3>ABOUT OBSIDIAN</h3>
-            <p>du texte</p> <!--a remplir-->
+            <p>The Obsidian theme, like the naturally occurring volcanic glass of the same name,
+              possesses an inherent allure that's stylish in appearance and pratical in purpose.
+              with distinctive background options and various customization possibilities,
+              Obsidian makes it easy to create the ultimate hub for your online identity.
+            </p>
           </td>
 
-          <td>
+          <td valign="top" align="left">
             <h3>VIVIENNE'S OMITTED LINE</h3>
-            <img src="images/album-03.jpeg" alt="Couverture album"> <!-- a changer sur music.html -->
+            <img src="images/album-03-300x300.jpg" alt="Couverture album"> <!-- a changer sur music.html -->
           </td>
 
-          <td>
+          <td valign="top" align="left">
             <h3>RECENT POSTS</h3>
 
             <article class="article_footer">
@@ -93,16 +104,16 @@
       <hr>
   <!-- icones du footer-->
       <ul id="icons">
-        <li>twitter</li>
-        <li>facebook</li>
-        <li>instagram</li>
-        <li>youtube</li>
-        <li>vimeo</li>
-        <li>amazon</li>
-        <li>apple</li>
-        <li>soundcloud</li>
-        <li>Rdio</li>
-        <li>spotify</li>
+        <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="http://instagram.com"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="http://youtube.com"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="http://vimeo.fr"><i class="fa fa-vimeo"></i></a></li>
+        <li><a href="http://amazon.fr"><i class="fa fa-amazon"></i></a></li>
+        <li><a href="http://apple.com"><i class="fa fa-apple"></i></a></li>
+        <li><a href="http://soundcloud.com"><i class="fa fa-soundcloud"></i></a></li>
+        <li><a href="http://youtube.fr"><i class="fa fa-youtube-play"></i></a></li>
+        <li><a href="http://spotify.fr"><i class="fa fa-spotify"></i></a></li>
       </ul>
   <!-- credits du footer -->
       <p id="credits">OBSIDIAN MUSIC THEME BY AUDIOTHEME.</p>
