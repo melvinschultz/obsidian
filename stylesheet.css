@@ -118,5 +118,24 @@ footer ul li {
   padding-top: 30px;
   padding-bottom: 70px;
   font-family: sans-serif;
+}
+
+/* PHOTO */
+
+#gallery {
+
+
+}
+
+#img9 {
+  display: inline-block;
+}
+
+#img4, #img5 {
+  float: right;
+  display: block;
+}
+
+#img5 {
 
 }
