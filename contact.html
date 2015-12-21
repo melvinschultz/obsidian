@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <!--lien vers les polices-->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Advent+Pro:700' rel='stylesheet' type='text/css'>
   <!--lien pour les icones-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-  <title>Contact</title>
 </head>
 <body>
   <header>
@@ -32,48 +32,44 @@
     <hr>
   </header>
 
-  <table id="tableau_contact">
-    <tr>
+  <div id="tableau_contact">
 
 <!-- Formulaire de contact -->
-      <td>
-        <form class="formulaire" action="" method="post">
-          <label for="name">Name (required)</label>
-          <input type="text" name="name" class="champ" />
+    <form class="formulaire" action="" method="post">
+      <p><label for="name">Name (required)</label></p>
+      <p><input type="text" name="name" class="champ" rows="8"/></p>
 
-          <label for="email">Email (required)</label>
-          <input type="email" name="email" class="champ" />
+      <p><label for="email">Email (required)</label></p>
+      <p><input type="email" name="email" class="champ" rows="8"/></p>
 
-          <label for="website">Website</label>
-          <input type="url" name="website" class="champ" />
+      <p><label for="website">Website</label></p>
+      <p><input type="url" name="website" class="champ" rows="8"/></p>
 
-          <label for="comment">Comment (required)</label>
-          <textarea name="comment" rows="8" cols="40"></textarea>
-        </form>
-      </td>
+      <p><label for="comment">Comment (required)</label></p>
+      <p><textarea name="comment" rows="8" cols="60"></textarea></p>
+    </form>
+  </div>
 
-      <td>
-        <input type="search" name="search" value="Search...">
+  <div id="article_contact">
+    <input id="search" type="search" name="search" value="Search...">
 
-        <article>
-          <h3></h3>
-          <h4></h4>
-          <p></p>
-          <time></time>
-        </article>
-        <article>
-          <h4></h4>
-          <p></p>
-          <time></time>
-        </article>
-        <article>
-          <h4></h4>
-          <p></p>
-          <time></time>
-        </article>
-      </td>
-    </tr>
-  </table>
+    <article>
+      <h3>LATEST NEWS</h3>
+      <h4>Welcome to our redesigned website</h4>
+      <p>Props to AudioTheme for providing the killer Obsidian WordPress theme. Feel free to poke around, str...</p>
+      <time datetime="2015-04-01">APRIL 1, 2015</time>
+    </article>
+    <article>
+      <h4>New tour dates posted</h4>
+      <p>We just announced a handiful of new tour dates in support of our latest album. Check'em out he...</p>
+      <time datetime="2014-12-16">DECEMBER 16, 2014</time>
+    </article>
+    <article>
+      <h4>History of Popular Music</h4>
+      <p>"The most significant feature of the emergent popular music industry of the late 18th and earl..."</p>
+      <time datetime="2014-12-15">DECEMBER 15, 2014</time>
+    </article>
+  </div>
 
 
 

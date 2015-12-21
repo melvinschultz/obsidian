@@ -168,5 +168,29 @@ footer ul li {
 }
 
 #img5 {
-  
+
+}
+
+/* CONTACT */
+
+#tableau_contact {
+  display: inline-block;
+  width: 50%;
+}
+
+#article_contact {
+  display: inline-block;
+  width: 49.5%;
+}
+
+input, textarea {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #adadad;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#search {
+  color: #adadad;
+  padding-left: 10px;
 }
