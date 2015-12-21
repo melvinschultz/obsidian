@@ -2,10 +2,13 @@ body {
   background-image: url("./images/background3.jpg");
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Advent Pro', sans-serif;
+  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #adadad;
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
+  font-size: 15px;
+  letter-spacing: 1px;
+
 }
 
 a:link, a:visited {
@@ -37,6 +40,7 @@ header nav ul li a {
   text-align: center;
   margin: 0px 20px 0px 20px;
   padding-top: 50px;
+  font-size: 12px;
 }
 
 header nav ul li a:hover {
@@ -58,7 +62,7 @@ header h1 {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 
 }
 
@@ -77,18 +81,43 @@ footer ul li a:visited, footer ul li a:link{
 #tableau_footer {
   vertical-align: middle;
   width: 100%;
+  height: 420px;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin: 0 auto;
 
 }
 
-#tableau_footer td{
-  width: 33%;
+#tableau_footer div {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  width: 30%;
+  padding-right: 25px;
 
 }
+
+#about {
+
+}
+
+#image_footer {
+
+}
+
+#div_article_footer {
+
+}
+
+
+
+
 #tableau_footer h3 {
   color: white;
   text-align: left;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .article_footer time{
@@ -108,7 +137,7 @@ footer ul li {
   text-align: center;
   vertical-align: middle;
   color: white;
-  padding-right: 25px;
+  padding-right: 30px;
 }
 
 #credits {
@@ -118,5 +147,7 @@ footer ul li {
   padding-top: 30px;
   padding-bottom: 70px;
   font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
 
 }
