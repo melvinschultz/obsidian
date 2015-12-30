@@ -78,6 +78,11 @@ header p {
   padding-bottom: 200px;
 }
 
+footer {
+  width: 80%;
+  margin: auto;
+}
+
 footer ul li a:visited, footer ul li a:link{
   color: white;
 }
