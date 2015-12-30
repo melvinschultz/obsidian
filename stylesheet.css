@@ -4,11 +4,15 @@ body {
   background-attachment: fixed;
   font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #adadad;
-  width: 1000px;
+  width: 100%;
   margin: 0 auto;
   font-size: 15px;
   letter-spacing: 1px;
+}
 
+#main {
+  width: 80%;
+  margin: auto;
 }
 
 a:link, a:visited {
@@ -149,6 +153,13 @@ footer ul li {
   font-family: sans-serif;
   font-size: 12px;
   font-weight: bold;
+}
+
+/* HOME */
+
+.video {
+  display: inline-block;
+  margin: 0;
 }
 
 /* PHOTO */
