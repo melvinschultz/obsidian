@@ -157,9 +157,26 @@ footer ul li {
 
 /* HOME */
 
+#video_home h2 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.right {
+  float: right;
+  color: #adadad;
+  font-weight: normal;
+  font-size: 15px;
+}
+
 .video {
   display: inline-block;
   margin: 0;
+}
+
+.title_video {
+  color: #fff;
+  font-weight: bold;
 }
 
 /* PHOTO */
