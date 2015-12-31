@@ -15,6 +15,11 @@ body {
   margin: auto;
 }
 
+#main h2 {
+  color: #fff;
+  font-weight: bold;
+}
+
 a:link, a:visited {
   color: #adadad;
 }
@@ -162,11 +167,6 @@ footer ul li {
 
 /* HOME */
 
-#video_home h2 {
-  color: #fff;
-  font-weight: bold;
-}
-
 .right {
   float: right;
   color: #adadad;
@@ -177,11 +177,48 @@ footer ul li {
 .video {
   display: inline-block;
   margin: 0;
+  margin-bottom: 60px;
 }
 
 .title_video {
   color: #fff;
   font-weight: bold;
+}
+
+.tableau2, .tableau2_2 {
+  width: 100%;
+  border-top: 1px solid;
+  border-color: rgb(173, 173, 173);
+  border-color: rgba(173, 173, 173, 0.4);
+}
+
+.tableau2_2 {
+  border-bottom: 1px solid;
+  border-color: rgb(173, 173, 173);
+  border-color: rgba(173, 173, 173, 0.4);
+}
+
+.date {
+  width: 15%;
+  line-height: 50px;
+  font-size: 12px;
+  color: #fff;
+}
+
+strong {
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.ville {
+  width: 40%;
+  font-weight: bold;
+}
+
+center {
+  font-weight: bold;
+  line-height: 50px;
+  margin-bottom: 60px;
 }
 
 /* PHOTO */
