@@ -105,13 +105,19 @@ footer ul li a:visited, footer ul li a:link{
   border-color: rgba(173, 173, 173, 0.4);
 }
 
-#tableau_footer div {
+.article1, .article2, .article3 {
   display: inline-block;
   text-align: left;
   vertical-align: top;
   width: 30%;
-  padding-right: 25px;
+}
 
+.article1 {
+  padding-right: 50px;
+}
+
+.article3 {
+  padding-left: 35px;
 }
 
 #about {
