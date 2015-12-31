@@ -99,7 +99,10 @@ footer ul li a:visited, footer ul li a:link{
   padding-top: 30px;
   padding-bottom: 30px;
   margin: 0 auto;
-
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: rgb(173, 173, 173);
+  border-color: rgba(173, 173, 173, 0.4);
 }
 
 #tableau_footer div {
