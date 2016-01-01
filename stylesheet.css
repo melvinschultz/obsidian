@@ -277,6 +277,23 @@ center {
 
 }
 
+/* MUSIC */
+
+.article1_music, .article2_music, .article3_music {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  width: 30%;
+}
+
+.article1_music {
+  padding-right: 40px;
+}
+
+.article3_music {
+  padding-left: 45px;
+}
+
 /* CONTACT */
 
 #tableau_contact {
