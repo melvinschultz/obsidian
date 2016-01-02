@@ -23,9 +23,14 @@ body {
 a:link, a:visited {
   color: #adadad;
 }
+
 header {
-  width: auto;
-  height: 1000px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 60px;
+  border-bottom: 1px solid;
+  border-color: rgb(173, 173, 173);
+  border-color: rgba(173, 173, 173, 0.4);
 }
 
 
