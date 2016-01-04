@@ -2,7 +2,7 @@ body {
   background-image: url("./images/background3.jpg");
   background-size: cover;
   background-attachment: fixed;
-  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Advent Pro', sans-serif;
   color: #adadad;
   width: 1200px;
   margin: 0 auto;
@@ -70,6 +70,22 @@ header p {
   padding-bottom: 200px;
 }
 
+
+/*css-video*/
+#tbleVideos {
+  display: inline-block;
+}
+
+#tbleVideos div {
+  
+
+}
+
+/*fin css-video*/
+
+
+
+
 footer ul li a:visited, footer ul li a:link{
   color: white;
 }
@@ -77,18 +93,16 @@ footer ul li a:visited, footer ul li a:link{
 #tableau_footer {
   vertical-align: middle;
   width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
 
 }
 
 #tableau_footer td{
   width: 33%;
+
 }
 #tableau_footer h3 {
   color: white;
   text-align: left;
-  padding-bottom: 20px;
 }
 
 .article_footer time{
