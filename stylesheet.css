@@ -1,138 +1,503 @@
-body {
-  background-image: url("./images/background3.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #adadad;
-  width: 1200px;
-  margin: 0 auto;
-}
-
-a:link, a:visited {
-  color: #adadad;
-}
-header {
-  width: auto;
-}
 
 
-header nav {
-  vertical-align: middle;
-}
 
-header nav ul {
-  vertical-align: middle;
-  text-align: center;
-}
 
-header nav ul li {
-  display: inline;
-}
 
-header nav ul li a {
-  text-decoration: none;
-  display: inline;
-  vertical-align: middle;
-  text-align: center;
-  margin: 0px 20px 0px 20px;
-  padding-top: 50px;
-}
 
-header nav ul li a:hover {
-  text-decoration: none;
-  display: inline;
-  vertical-align: middle;
-  text-align: center;
-  margin: 0px 20px 0px 20px;
-  padding-top: 50px;
-  color: white;
-}
 
-header h1 {
-  text-align: center;
-  vertical-align: middle;
-  padding-top: 200px;
-  margin-bottom: -10px;
-  font-size: 70px;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
-  letter-spacing: 10px;
 
-}
 
-header p {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  vertical-align: middle;
-  letter-spacing: 2px;
-  padding-bottom: 200px;
-}
 
-footer ul li a:visited, footer ul li a:link{
-  color: white;
-}
 
-#tableau_footer {
-  vertical-align: middle;
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
 
-}
 
-#tableau_footer td{
-  width: 33%;
-}
-#tableau_footer h3 {
-  color: white;
-  text-align: left;
-  padding-bottom: 20px;
-}
 
-.article_footer time{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
-  text-transform: uppercase;
-  font-size: 12px;
-}
 
-footer ul {
-  text-align: center;
-  vertical-align: middle;
-  padding-top: 20px;
-}
-footer ul li {
-  display: inline;
-  text-align: center;
-  vertical-align: middle;
-  color: white;
-  padding-right: 25px;
-}
 
-#credits {
-  color: white;
-  text-align: center;
-  vertical-align: middle;
-  padding-top: 30px;
-  padding-bottom: 70px;
-  font-family: sans-serif;
-}
 
-body p {
-  width: 70%;
-  margin: auto;
-}
 
-#tour {
-  width: 70%;
-  margin: auto;
-}
 
-#navTour {
-  margin: auto;
-  width: 70%
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #pochetteMusic {
   width: 300px;
   height: 568px;
