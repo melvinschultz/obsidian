@@ -226,7 +226,16 @@ footer ul li {
   font-weight: bold;
   margin-bottom: 20px;
 }
-
+/* TOUR */
+#main h1 {
+  text-align: center;
+  font-size: 20px;
+}
+.lignefus {
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+/* Home et Tour */
 .tableau_upcoming, .tableau_upcoming5 {
   width: 100%;
   border-top: 1px solid;
@@ -256,6 +265,7 @@ strong {
   width: 40%;
   font-weight: bold;
 }
+/* fin Home et Tour */
 
 center {
   font-weight: bold;
