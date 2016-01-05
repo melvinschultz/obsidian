@@ -141,13 +141,16 @@ body p {
   margin: auto;
 }
 body aside {
-  position: absolute;
+  position: relative;
     width: 200px;
     height: 400px;
 }
 body article {
-  position:relative;
+  position: absolute;
     width:600px;
     height:400px;
     left: 500px;
+}
+#sousTitreMusic {
+  text-align: center;
 }
