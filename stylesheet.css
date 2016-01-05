@@ -27,7 +27,7 @@ a:link, a:visited {
 header {
   width: 80%;
   margin: auto;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   border-bottom: 1px solid;
   border-color: rgb(173, 173, 173);
   border-color: rgba(173, 173, 173, 0.4);
@@ -229,8 +229,9 @@ footer ul li {
 /* TOUR */
 #main h1 {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
+  padding-bottom: 10px;
 
 }
 #main h1 a {
@@ -255,7 +256,7 @@ footer ul li {
 
 hr {
   border-color: rgb(173, 173, 173);
-  border-color: rgba(173, 173, 173, 0,4);
+  border-color: rgba(173, 173, 173, 0.3);
 }
 /* Home et Tour */
 .tableau_upcoming, .tableau_upcoming5 {
