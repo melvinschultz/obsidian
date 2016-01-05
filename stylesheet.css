@@ -181,7 +181,12 @@ footer ul li {
 }
 
 
-#bio{
+#titre_page{
+  padding-top: 0;
+}
+
+
+#sous_titre_page{
   font-size: 22px;
   font-weight: bold;
   color: white;
@@ -189,10 +194,6 @@ footer ul li {
   padding-bottom: 0;
 }
 
-
-#titre_bio{
-  padding-top: 0;
-}
 
 /* HOME */
 
