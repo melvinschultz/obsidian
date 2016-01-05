@@ -13,7 +13,6 @@ a:link, a:visited {
 }
 header {
   width: auto;
-  height: 1000px;
 }
 
 
@@ -135,22 +134,20 @@ body p {
   margin: auto;
   width: 70%
 }
-
-.haha {
-  width: 70%;
-  margin: auto;
+#pochetteMusic {
+  width: 200px;
+  height: 400px;
 }
-body aside {
-  position: relative;
-    width: 200px;
-    height: 400px;
-}
-body article {
-  position: absolute;
-    width:600px;
-    height:400px;
-    left: 500px;
+#articleMusic {
+  width:600px;
+  height:400px;
 }
 #sousTitreMusic {
   text-align: center;
+}
+#conteneur {
+  display:flex;
+}
+.elem {
+  margin: auto;
 }

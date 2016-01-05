@@ -1,11 +1,17 @@
-body aside {
-  position: absolute;
-    width: 200px;
-    height: 400px;
+#pochetteMusic {
+  width: 200px;
+  height: 400px;
 }
-body article {
-  position:relative;
-    width:600px;
-    height:400px;
-    left: 500px;
+#articleMusic {
+  width:600px;
+  height:400px;
+}
+#sousTitreMusic {
+  text-align: center;
+}
+#conteneur {
+  display:flex;
+}
+.elem {
+  margin: auto;
 }
