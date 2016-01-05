@@ -140,3 +140,14 @@ body p {
   width: 70%;
   margin: auto;
 }
+body aside {
+  position: absolute;
+    width: 200px;
+    height: 400px;
+}
+body article {
+  position:relative;
+    width:600px;
+    height:400px;
+    left: 500px;
+}
