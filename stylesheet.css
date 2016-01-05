@@ -121,25 +121,11 @@ footer ul li a:visited, footer ul li a:link{
 .article1 {
   padding-right: 50px;
 }
-<<<<<<< HEAD
-=======
 
 .article3 {
   padding-left: 35px;
 }
 
-#about {
-
-}
-
-#image_footer {
->>>>>>> master
-
-.article3 {
-  padding-left: 35px;
-}
-
-<<<<<<< HEAD
 #about {
 
 }
@@ -152,12 +138,6 @@ footer ul li a:visited, footer ul li a:link{
 
 }
 
-=======
-#div_article_footer {
-
-}
-
->>>>>>> master
 
 
 
@@ -246,7 +226,6 @@ footer ul li {
   font-weight: bold;
   margin-bottom: 20px;
 }
-<<<<<<< HEAD
 
 .tableau_upcoming, .tableau_upcoming5 {
   width: 100%;
@@ -303,7 +282,7 @@ center {
 #img5 {
 
 }
-/*340 * 190 */
+
 /* VIDEOS */
 #tbleVideos tr td {
   color: white;
@@ -323,63 +302,6 @@ center {
 
 #Photo6 {
   padding-top: 24px;
-=======
-
-.tableau_upcoming, .tableau_upcoming5 {
-  width: 100%;
-  border-top: 1px solid;
-  border-color: rgb(173, 173, 173);
-  border-color: rgba(173, 173, 173, 0.4);
-}
-
-.tableau_upcoming5 {
-  border-bottom: 1px solid;
-  border-color: rgb(173, 173, 173);
-  border-color: rgba(173, 173, 173, 0.4);
-}
-
-.date {
-  width: 15%;
-  line-height: 50px;
-  font-size: 12px;
-  color: #fff;
-}
-
-strong {
-  margin-left: 15px;
-  font-size: 18px;
-}
-
-.ville {
-  width: 40%;
-  font-weight: bold;
-}
-
-center {
-  font-weight: bold;
-  line-height: 50px;
-  margin-bottom: 60px;
-}
-
-/* PHOTO */
-
-#gallery {
-
-
-}
-
-#img9 {
-  display: inline-block;
-}
-
-#img4, #img5 {
-  float: right;
-  display: block;
-}
-
-#img5 {
-
->>>>>>> master
 }
 
 /* MUSIC */
