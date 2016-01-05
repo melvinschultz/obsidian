@@ -92,6 +92,7 @@ header p {
 footer {
   width: 80%;
   margin: auto;
+  margin-top: 60px;
 }
 
 footer ul li a:visited, footer ul li a:link{
@@ -179,6 +180,21 @@ footer ul li {
   font-size: 12px;
   font-weight: bold;
 }
+
+
+#titre_page{
+  padding-top: 0;
+}
+
+
+#sous_titre_page{
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin-top: 100px;
+  padding-bottom: 0;
+}
+
 
 /* HOME */
 
@@ -316,27 +332,6 @@ center {
 
 }
 
-/* VIDEOS */
-#tbleVideos tr td {
-  color: white;
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-
-#tbleVideos {
-  padding-bottom: 50px;
-}
-
-#tbleVideos tr td img {
-  width: 340px;
-  height: 190px;
-  padding-bottom: 10px;
-}
-
-#Photo6 {
-  padding-top: 24px;
-}
-
 /* MUSIC */
 
 .article1_music, .article2_music, .article3_music {
@@ -358,7 +353,8 @@ center {
 
 #tableau_contact {
   display: inline-block;
-  width: 50%;
+  width: 70%;
+  vertical-align: top;
 }
 
 #tableau_contact a {
@@ -367,19 +363,41 @@ center {
 
 #article_contact {
   display: inline-block;
-  width: 49.5%;
+  width: 29.5%;
+}
+
+.formulaire p {
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 input, textarea {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid #adadad;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border: 1px solid;
+  border-color: rgba(173, 173, 173, 0.4);
+}
+
+.h_form {
+  font-weight: bold;
+  color: #B9B9B9;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 570px;
+  height: 200px;
+  margin-bottom: 10px;
 }
 
 .submit {
   width: 115px;
+  height: 40px;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
@@ -391,4 +409,39 @@ input, textarea {
 #search {
   color: #adadad;
   padding-left: 10px;
+}
+
+article h3, article h4 {
+  color: #fff;
+  font-weight: bold;
+}
+
+article h3 {
+  margin-top: 50px;
+}
+
+article h4 {
+  margin-top: 30px;
+}
+
+time {
+  font-size: 11px;
+}
+
+/* BIO */
+
+#article_bio{
+  width: 750px;
+  margin: auto;
+}
+
+
+#article_bio img{
+  width: 750px;
+  height: auto;
+}
+
+
+#article_bio p:last-child{
+  margin-bottom: 40px;
 }
