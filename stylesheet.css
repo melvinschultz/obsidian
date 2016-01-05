@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background-image: url("./images/background3.jpg");
   background-size: cover;
@@ -411,4 +412,70 @@ time {
 
 #article_bio p:last-child{
   margin-bottom: 40px;
+=======
+/* Page Music */
+#pochetteMusic {
+  width: 300px;
+  height: 568px;
+  margin-top: 75px;
 }
+#articleMusic {
+  width:600px;
+  height:400px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+#articleMusic h1 {
+  margin-top: -8px;
+}
+#pochetteMusic img {
+  margin-top: -24px;
+  margin-bottom: 15px;
+}
+#pochetteMusic ul {
+  list-style: none;
+  width: 300px;
+  padding-left: 0px;
+}
+#pochetteMusic li {
+  background-color: black;
+  margin-top: 10px;
+  text-align: center;
+  height: 30px;
+  padding-top: 5px;
+  opacity: 0.6;
+}
+#sousTitreMusic {
+  text-align: center;
+}
+#conteneur {
+  display:flex;
+  margin-top: 20px;
+}
+.elem {
+  margin: auto;
+}
+.tpsMorc{
+  margin-right: 15px;
+}
+.numMorc {
+  margin-left: 15px;
+  margin-right: 20px;
+}
+.ligne {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  justify-content: flex-start;
+}
+.nomMorc
+{
+  flex: 1;
+}
+hr {
+  border: none;
+  border-top: solid 0.5px rgba(173, 173, 173, 0.4);
+>>>>>>> b498e1d9c720e23d5c0a2090677d4fa350c83956
+}
+/* Fin Page music */
