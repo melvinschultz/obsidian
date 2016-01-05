@@ -181,6 +181,21 @@ footer ul li {
   font-weight: bold;
 }
 
+
+#titre_page{
+  padding-top: 0;
+}
+
+
+#sous_titre_page{
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin-top: 100px;
+  padding-bottom: 0;
+}
+
+
 /* HOME */
 
 #video_home {
@@ -284,27 +299,6 @@ center {
 
 }
 
-/* VIDEOS */
-#tbleVideos tr td {
-  color: white;
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-
-#tbleVideos {
-  padding-bottom: 50px;
-}
-
-#tbleVideos tr td img {
-  width: 340px;
-  height: 190px;
-  padding-bottom: 10px;
-}
-
-#Photo6 {
-  padding-top: 24px;
-}
-
 /* MUSIC */
 
 .article1_music, .article2_music, .article3_music {
@@ -399,4 +393,22 @@ article h4 {
 
 time {
   font-size: 11px;
+}
+
+/* BIO */
+
+#article_bio{
+  width: 750px;
+  margin: auto;
+}
+
+
+#article_bio img{
+  width: 750px;
+  height: auto;
+}
+
+
+#article_bio p:last-child{
+  margin-bottom: 40px;
 }
