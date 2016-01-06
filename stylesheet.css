@@ -282,21 +282,9 @@ center {
 /* PHOTO */
 
 #gallery {
-
-
-}
-
-#img9 {
-  display: inline-block;
-}
-
-#img4, #img5 {
-  float: right;
-  display: block;
-}
-
-#img5 {
-
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 /* MUSIC */
