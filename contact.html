@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <!--lien vers les polices-->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Advent+Pro:700' rel='stylesheet' type='text/css'>
+  <!--lien pour les icones-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <title>Contact</title>
+</head>
+<body>
+  <header>
+<!-- menu des pages -->
+    <nav class="div_menu">
+      <ul class="menu">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="bio.html">BIO</a></li>
+        <li><a href="photo.html">PHOTOS</a></li>
+        <li><a href="music.html">MUSIC</a></li>
+        <li><a href="videos.html">VIDEOS</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="tour.html">TOUR</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+<!-- titre et sous-titre -->
+    <h1 id="titre_page">PROJET AUDIO</h1>
+    <p id="sous_titre_page">CONTACT</p>
+  </header>
+
+  <div id="main">
+    <div id="tableau_contact">
+
+  <!-- Formulaire de contact -->
+      <form class="formulaire" action="" method="post">
+        <p><label for="name"><span class="h_form">Name</span> (required)</label></p>
+        <p><input id="name" type="text" name="name" value="" class="champ" rows="8"/></p>
+
+        <p><label for="email"><span class="h_form">Email</span> (required)</label></p>
+        <p><input id="email" type="email" name="email" value="" class="champ" rows="8"/></p>
+
+        <p><label for="website"><span class="h_form">Website</span></label></p>
+        <p><input id="website" type="url" name="website" value="" class="champ" rows="8"/></p>
+
+        <p><label for="comment"><span class="h_form">Comment</span> (required)</label></p>
+        <p><textarea id="comment" name="comment" value="" rows="8" cols="60"></textarea></p>
+
+        <p><a href="#"><input class="submit" type="submit" name="submit" value="Submit &raquo;"></a><p>
+      </form>
+    </div>
+
+    <div id="article_contact">
+      <input id="search" type="search" name="search" placeholder="Search...">
+
+      <article>
+        <h3>LATEST NEWS</h3>
+        <h4>Welcome to our redesigned website</h4>
+        <p>Props to AudioTheme for providing the killer Obsidian WordPress theme. Feel free to poke around, str...</p>
+        <time datetime="2015-04-01">APRIL 1, 2015</time>
+      </article>
+      <article>
+        <h4>New tour dates posted</h4>
+        <p>We just announced a handiful of new tour dates in support of our latest album. Check'em out he...</p>
+        <time datetime="2014-12-16">DECEMBER 16, 2014</time>
+      </article>
+      <article>
+        <h4>History of Popular Music</h4>
+        <p>"The most significant feature of the emergent popular music industry of the late 18th and earl..."</p>
+        <time datetime="2014-12-15">DECEMBER 15, 2014</time>
+      </article>
+    </div>
+  </div><!-- /#main -->
+
+  <footer>
+  <!-- articles footer -->
+    <table id="tableau_footer">
+      <tr>
+
+        <td class="article1" valign="top" align="left">
+          <h3>ABOUT OBSIDIAN</h3>
+          <p>The Obsidian theme, like the naturally occurring volcanic glass of the same name,
+            possesses an inherent allure that's stylish in appearance and pratical in purpose.
+            with distinctive background options and various customization possibilities,
+            Obsidian makes it easy to create the ultimate hub for your online identity.
+          </p>
+        </td>
+
+        <td class="article2" valign="top" align="left">
+          <h3>VIVIENNE'S OMITTED LINE</h3>
+          <img src="images/album-03-300x300.jpg" alt="Couverture album"> <!-- a changer sur music.html -->
+        </td>
+
+        <td class="article3" valign="top" align="left">
+          <h3>RECENT POSTS</h3>
+
+          <article class="article_footer">
+            <h4>Welcome to our redesigned website</h4>
+            <time datetime="2015-04-01">April 1, 2015</time>
+          </article>
+
+          <article class="article_footer">
+            <h4>New tour dates posted</h4>
+            <time datetime="2014-12-16">December 16, 2014</time>
+          </article>
+
+          <article class="article_footer">
+            <h4>History of popular music</h4>
+            <time datetime="2014-12-15">December 15, 2014</time>
+          </article>
+        </td>
+
+      </tr>
+    </table>
+
+<!-- icones du footer-->
+    <ul id="icons">
+      <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="http://instagram.com"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="http://youtube.com"><i class="fa fa-youtube"></i></a></li>
+      <li><a href="http://vimeo.fr"><i class="fa fa-vimeo"></i></a></li>
+      <li><a href="http://amazon.fr"><i class="fa fa-amazon"></i></a></li>
+      <li><a href="http://apple.com"><i class="fa fa-apple"></i></a></li>
+      <li><a href="http://soundcloud.com"><i class="fa fa-soundcloud"></i></a></li>
+      <li><a href="http://youtube.fr"><i class="fa fa-youtube-play"></i></a></li>
+      <li><a href="http://spotify.fr"><i class="fa fa-spotify"></i></a></li>
+    </ul>
+<!-- credits du footer -->
+    <p id="credits">OBSIDIAN MUSIC THEME BY AUDIOTHEME.</p>
+  </footer>
+
+</body>
+</html>
